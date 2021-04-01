@@ -1,12 +1,12 @@
+<nav id="nav-bar" class="navbar navbar-dark bg-secondary">
+  <span class="navbar-brand">Directives</span>
+</nav>
 <div class="container">
-  
   <h2>Click the Selection to Change the Behaviour of the Button</h2>
-  
   <div>
-    <input type="radio" name="colors" (click)="color='blue'">Normal Button
-    <input type="radio" name="colors" (click)="color='green'">One Click Button
-    <input type="radio" name="colors" (click)="color='maroon'">Error Button
+    <input type="radio" name="colors" (click)="color='blue'"><span>Normal Button</span>
+    <input type="radio" name="colors" (click)="color='green'"><span>One Click Button</span>
+    <input type="radio" name="colors" (click)="color='maroon'"><span>Error Button</span>
   </div>
-  
-  <button [appBtnstyle]="color">My Button</button>
+  <button id="displayButton" [disabled]="color" [appBtnstyle]="color">My Button</button>
 </div>

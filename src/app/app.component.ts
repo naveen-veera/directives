@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Directives Practice';
-  color:string;
-  // color = 'blue';
+  color:string= '';
 }
