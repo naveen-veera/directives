@@ -1,4 +1,4 @@
-# Angq8
+# Angular - Directives
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
@@ -14,14 +14,23 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Project Summary
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+It is a example project for understanding the Angular Directives. I have just implemented the directive.
 
-## Running end-to-end tests
+Develop an directive that will attach following behaviour to a Button Element.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+1. Normal Button
+- Mouse Over = change to bold & increase the text size by 10px  
+- Mouse out = change to Normal & Decrease the text size by 10px 
+- Style - Button Background = Blue
 
-## Further help
+2. One Click Button 
+- Mouse Over = change to bold & increase the text size by 20px  
+- Mouse out = change to Normal & Decrease the text size by 20px 
+- Style - Button Background = Green
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Error Button
+- Mouse Over = change to bold & increase the text size by 30px  
+- Mouse out = change to Normal & Decrease the text size by 30px 
+- Style - Button Background = Maroon
